@@ -195,7 +195,8 @@
 
 // The deviation specifies how wide the signal is. Use 25.0 for WBFM
 // (broadcast radio) and about 3.5 for NBFM (walkie-talkie style radio)
-#define DEVIATION        25.0
+// 5000.0 kGH for close 10 MGH radio
+#define DEVIATION        5000.0
 
 
 typedef struct {
